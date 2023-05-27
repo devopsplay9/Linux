@@ -1,0 +1,8 @@
+sudo    Run commands with super user privileges
+ls      List files
+ll      Long list files
+man     Displays manual of each command
+cat     To concat, append, and merge the data of the files
+clear   To clear the screen in the CLI
+echo    Used to print the data on the screen
+

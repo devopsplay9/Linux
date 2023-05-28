@@ -1,5 +1,5 @@
 sudo    Run commands with super user privileges
-ls      List files
+ls      Long listing files
 ll      Long list files
 man     Displays manual of each command
 cat     To concat, append, and merge the data of the files
@@ -16,3 +16,10 @@ cat file path | grep -ic "word to search case insenstive mode with count"
 cat file path | grep -ni "word to search case insenstive mode with line numbers"
 grep -B5 "word to search" -A5 file path to search before and after the word search
 grep -i "word to search" file path1 file path2 file path3 ( to search in multiply files paths) 
+ls -l | grep "^." to list only the files
+ls -l | grep "^d" to list only the directories
+
+
+awk = Alfred Aho, Peter Weinberger, and Brian Kernighan
+awk -F ":" '{print $1":"$2}' to perform database operations with delimiter
+awk -F ":" '{print $1--->$2}' to perform database operations with your own delimiter

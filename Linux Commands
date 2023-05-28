@@ -13,3 +13,6 @@ grep "word to search" filepath
 cat file path | grep "word to search"
 cat file path | grep -i "word to search case insenstive mode"
 cat file path | grep -ic "word to search case insenstive mode with count"
+cat file path | grep -ni "word to search case insenstive mode with line numbers"
+grep -B5 "word to search" -A5 file path to search before and after the word search
+grep -i "word to search" file path1 file path2 file path3 ( to search in multiply files paths) 

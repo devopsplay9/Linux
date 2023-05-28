@@ -1,0 +1,31 @@
+vi = visual interface
+
+There are 3 modes in the vi editor
+1. command mode
+2. editor mode
+3. execution mode
+
+
+COMMAND MODE
+yy  = copy line of code/ yank
+p =  put / paste
+5yy = to copy 5 lines of code
+dd = to delete a single line of code
+5dd = to delete 5 lines of code
+x = to delete a singel character
+dw = to delete a word
+u = to undo the changes
+ctrl + r = to redo the changes
+shift + R to replace the line
+
+
+EXECUTION MODE
+: = to execute the code
+:w = to write the data to the file
+:wq = to write the data to the file and quite
+:n = to go the next file to perfomr the changes
+:r = to go the previous file
+:1,$s/OLD WORD/new word = to find and replace the word in the file
+:set nu = to set line number
+:15 to navigate to line number 15
+
